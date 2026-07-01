@@ -1,0 +1,12 @@
+name: my-first-workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Printing about Mohith"
+        run: echo "Mohith gadu thopu"
+      - name: "Priting qualities of Mohith"
+        run: echo "Mohith gadiki piccha self confidence undi, self confidence ki kavalsina CAP: Capability, Positisitive talking, Action ee 3 ingrdiants Mohith gadiki artham ayyayi, implemet chestunnadu"
+      - name: "Printing what Mohith will become"
+        run: echo "Mohith Cherukuri - it will become a BRAND"
