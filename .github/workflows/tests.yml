@@ -1,5 +1,9 @@
 name: adding-test-workflow
-on: push
+on:
+  push:
+   branches:
+    - 'feature/**'
+    - 'develop'
 jobs:
  test-job:
   runs-on: ubuntu-latest
